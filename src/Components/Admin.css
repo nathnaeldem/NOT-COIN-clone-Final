@@ -1,0 +1,28 @@
+.post-container {
+    
+  border-radius: 12px;
+  box-shadow: 0 2px 4px #ab5463;
+  padding: 12px;
+  width: 93%;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.username {
+    font-weight: bold;
+}
+.date {
+    color: #383636;
+    font-size: 0.9em;
+}
+.content {
+    clear: both;
+    margin-top: 10px;
+    margin-left: 17px;
+}

@@ -1,0 +1,14 @@
+.popup {
+    position: fixed;
+    bottom: 130px;
+    left: 50%; /* Use left: 50% for center alignment */
+    transform: translateX(-50%);
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(187, 36, 36, 0.658);
+    z-index: 1000;
+    text-align: center;
+  }
+  

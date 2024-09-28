@@ -1,0 +1,71 @@
+.fullHeightContainer {
+    
+    
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(0,212,255,0) 100%);
+    
+  }
+
+  .fullHeightContainer1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: #fff;
+  }
+  .fullHeightContainer1 footer{
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }
+  
+  .headerText {
+    font-size: 60px;
+    margin: 10px;
+  }
+  
+  .subHeaderText {
+    font-size: 16px;
+    color: #a9a9a9;
+    margin-top: 9px;
+    margin-right: 4px;
+  }
+  
+  .inviteButton {
+    position: fixed; /* This is the key change */
+    bottom: 20px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    color: #131212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    width: 80%;
+  }
+  
+  .coinIcon {
+    font-size: 32px;
+  }
+  
+  .card2 {
+    border: 2px rgb(78, 73, 73) solid;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #383737;
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+  .HeaderC{
+    margin-bottom: 40px;
+  }
+  .Sp{
+margin-left: 70px;
+  }

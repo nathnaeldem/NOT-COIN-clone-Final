@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+}
+
+@keyframes float {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+
+.bg-gradient-main {
+  background: linear-gradient(to top, #fba007, #ffc630);
+}
+
+.bg-gradient-overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 40%, rgba(0, 212, 255, 0) 100%);
+}
+
+.bpAll {
+  background: black;
+}
+
+.radial-gradient-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(250, 214, 92, 0.8) 0%, rgba(250, 214, 92, 0) 60%);
+}
+
+.bg-gradient-overlay1 {
+  background: black;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.74);
+  z-index: 100; /* Ensure modal is on top of other elements */
+  color: white;
+}
+
+.modal-content {
+  background-color: #141313;
+  padding: 10px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0px; /* Adjust this value as needed */
+  left: 0%;
+}
+
+.modal-header {
+  display: block;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.modal-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.modal-header p {
+  width: 69%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  color: #8f8c8c;
+}
+
+.modal-footer {
+  margin-left: 37%;
+}
+
+.modal-footer button {
+  color: white;
+  background-color: red;
+}
+
+.modal-body {
+  text-align: center;
+  border: 1px rgb(71, 70, 70) solid;
+  display: block;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.modal-body input {
+  width: 98%;
+  height: 70px;
+  background-color: #3d3c3c;
+}
+
+.modal-body button {
+  margin-left: 2%;
+  font-size: 25px;
+  width: 50%;
+  border: 1px red solid;
+  margin: 5px;
+  border-radius: 12px;
+}
+
+.card {
+  border: 2px rgb(78, 73, 73) solid;
+  border-radius: 30px;
+  justify-content: center;
+  display: inline-flex;
+  margin-bottom: 10px;
+  background-color: #383737;
+  color: #bfedf3;
+  font-size: medium;
+  height: 83px;
+}
+
+.social {
+  font-size: 50px;
+  color: rgb(235, 35, 35);
+  margin: 19px;
+}
+
+.titl {
+  margin-top: 18px;
+}
+
+.point {
+  margin: 19px;
+  margin-top: 30px;
+}
